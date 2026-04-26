@@ -213,7 +213,7 @@ async def setup(interaction: discord.Interaction):
     await interaction.guild.create_role(name="🌸 18+", color=discord.Color.dark_magenta())
     await interaction.guild.create_role(name="♀️ She/Her", color=discord.Color.pink())
     await interaction.guild.create_role(name="♂️ He/Him", color=discord.Color.blue())
-    await interaction.guild.create_role(name="🏳️‍🌈 They/Them", color=discord.Color.white())
+    await interaction.guild.create_role(name="🏳️‍🌈 They/Them", color=discord.Color.default())
 
     verified = discord.utils.get(interaction.guild.roles, name="✨ Cuties")
     default_hide = {interaction.guild.default_role: discord.PermissionOverwrite(view_channel=False)}
