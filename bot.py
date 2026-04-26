@@ -210,7 +210,7 @@ async def setup(interaction: discord.Interaction):
     await interaction.guild.create_role(name="⚠️ Muted", color=discord.Color.dark_gray())
     await interaction.guild.create_role(name="👶 Under 13", color=discord.Color.light_grey())
     await interaction.guild.create_role(name="🌸 13-17", color=discord.Color.pink())
-    await interaction.guild.create_role(name="🌸 18+", color=discord.Color.dark_pink())
+    await interaction.guild.create_role(name="🌸 18+", color=discord.Color.dark_magenta())
     await interaction.guild.create_role(name="♀️ She/Her", color=discord.Color.pink())
     await interaction.guild.create_role(name="♂️ He/Him", color=discord.Color.blue())
     await interaction.guild.create_role(name="🏳️‍🌈 They/Them", color=discord.Color.white())
